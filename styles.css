@@ -1,0 +1,159 @@
+body{
+
+    font-family: Calibri;
+}
+
+h1{
+    font-family:Calibri;
+    background-color: rgb(217, 217, 217);
+    text-align: center;
+    margin: 0%;
+    color: rgb(246, 202, 172);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(236, 125, 51);
+    font-size:9.5vmin;
+    text-shadow: 10px -10px 7px rgba(0, 0, 0, 0.205);
+    max-width: 1050px;
+    margin:auto;
+}
+
+form{
+    max-width: 1050px;
+    margin: auto;
+    border: solid 2px rgb(127, 127, 127);
+    border-top: none;
+}
+
+.listaProv{
+    height:45vh;
+    min-height: 40px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    height: 30%;
+}
+.contenedor > div{
+    height: 100%;
+    display: flex;
+}
+
+#contenedorSalta{
+    background-color: rgb(255, 229, 153);
+    border-bottom: solid 2px black;
+    
+}
+#contenedorMendoza{
+    background-color: rgb(189, 214, 238);
+    border-bottom: solid 2px black;
+}
+#contenedorNeuquen{
+    background-color: rgb(197, 224, 179);
+}
+
+.checkbox{
+    width: 10%;
+    border-right: solid 2px black;
+}
+.checkbox > input{
+    margin: auto;
+}
+
+.nombre-provincia{
+    width: 35%;
+}
+.nombre-provincia > p{
+    font-family: "Chiller LET";
+    font-size: min(6vmin, 50px);;
+    overflow:hidden;
+    margin: auto;
+}
+
+.img-provincia{
+    width: 20%;
+    background: #000;
+}
+.img-provincia >img{
+    aspect-ratio: 4/3;
+    max-height: 80%;
+    max-width:80%;
+    margin: auto;
+}
+
+.opc-provincia{
+    justify-content: left;
+    width: 30%;
+}
+.opc-provincia > ul{
+    font-size:  min(2.5vmin, 25px);
+    font: 10px;
+    overflow:hidden;
+}
+.checkbox-opc{
+    width: 10%;
+    background-color: rgb(247, 202, 172);
+}
+.checkbox-opc > div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-opc >div>  input{
+    margin: min(2.5vmin, 10px) ;
+}
+
+.form{
+    font-family: Arial;
+    font-size: 2vmin;
+    height:30vh;
+    width: 70%;
+    margin: auto;
+    display:grid;
+    grid-template-columns:auto auto;
+    
+}
+.form> input{
+    height: 4vh;
+    width:  min(40vw, 25em);
+    border: solid 3px rgb(128, 182, 92);
+}
+.form> h2{
+    margin: 0;
+    font-weight: 100;
+}
+.form>div{
+    padding-left: 25%;
+    justify-content: center;
+}
+
+button{
+    height: 2.5em;
+    width: 7em;
+    border: none;
+    background: #000;
+    color: white;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: Calibri;
+    margin: auto;
+    margin-left: 45%;
+    margin-bottom: 4%;
+}
+
+input[type="radio"]{
+    border: 1px solid black;
+    padding: 0.5em;
+    -webkit-appearance: none;
+}
+
+input[type=radio]:checked {
+    background: black ;
+    background-size: 5px 5px;
+}
+
+input[type=radio]:focus {
+outline-color: transparent;
+}
+  
+  
